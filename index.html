@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stasia | Order</title>
+    <title>Stasia | Baking</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
     <link href="./styles/bootstrap.min.css" rel="stylesheet">
     <link href="./styles/style.css" rel="stylesheet">
@@ -18,11 +18,9 @@
                 <div class="row">
                     <div class="col-sm-8 col-md-7 py-4">
                         <h4>Про нашу пекарню</h4>
-                        <p>Пекарня Stasia Baking - це особливе місце, де витає аромат свіжого хлібу і випічки, яка
-                            тішить душу і зігріває серце. Це не просто місце, де готують харчі, а справжнє джерело
-                            тепла,
-                            затишку і смаку. Тут замість інгредієнтів готуються щасливі миті, а замість печі - тепло
-                            любові і турботи.</p>
+                        <p>Пекарня Stasia Baking - це особливе місце, де витає аромат свіжого хлібу і випічки, яка 
+                            тішить душу і зігріває серце. Це не просто місце, де готують харчі, а справжнє джерело тепла, 
+                            затишку і смаку. Тут замість інгредієнтів готуються щасливі миті, а замість печі - тепло любові і турботи.</p>
                     </div>
                     <div class="col-sm-4 offset-md-1 py-4">
                         <h4>Контакти</h4>
@@ -37,7 +35,7 @@
         </div>
         <div class="navbar navbar-dark bg-dark shadow-sm">
             <div class="container">
-                <a href="../index.html" class="navbar-brand d-flex align-items-center">
+                <a href="#" class="navbar-brand d-flex align-items-center">
                     <div class="photo">
                         <img class="personPhoto" alt="stasia baking logo" src="./images/logo/logo_100.jpg">
                     </div>
@@ -56,7 +54,16 @@
         <section class="py-5 text-center container">
             <div class="row py-lg-5">
                 <div class="col-lg-6 col-md-8 mx-auto">
-                    <h1 class="fw-light">Оформлення замовлення</h1>
+                    <h1 class="fw-light">Пекарня твого міста</h1>
+
+                    <p class="lead text-body-secondary">
+                        Ласкаво просимо до нашої особливої пекарні, де кожна випічка - 
+                        це шедевр справжнього мистецтва. Ми виготовляємо кращі торти, кекси, печиво та інші смаколики, 
+                        використовуючи найкращі натуральні інгредієнти.
+                    </p>
+                        <a href="./pages/order.html" class="btn btn-primary my-2">Замовити випічку</a>
+                        <a href="#" class="btn btn-secondary my-2">Дивитись відгуки</a>
+                    </p>
                 </div>
             </div>
         </section>
@@ -64,49 +71,190 @@
         <div class="album py-5 bg-body-tertiary">
             <div class="container">
 
-                <h1>Заповніть форму</h1>
-
-
-                <div class="mb-3">
-                    <label for="product" class="form-label">
-                        Вибрати випічку
-                    </label>
-
-                        <div class="mb-3">
-                            <select class="form-select" id="product">
-                                <option value="">...</option>
-                                <option value="1">Бісквітний кремовий торт</option>
-                                <option value="2">Брауні на пиві</option>
-                                <option value="3">Бісквітний торт на сметані</option>
-                                <option value="4">М'ятне печиво</option>
-                                <option value="5">Лимонний бісквіт</option>
-                                <option value="6">Бісквітний торт</option>
-                                <option value="7">Печиво з родзинками та шоколадом</option>
-                                <option value="8">Бісквітний торт з мандаринами та горіхами</option>
-                                <option value="9">Вафельний торт зі згущенним молоком та горіхами</option>
-                                <option value="10">Галета</option>
-                            </select>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./images/products/image_1.jpeg" class="bd-placeholder-img card-img-top" role="img" width="100%" height="50%" />
+                            <div class="card-body">
+                                <p class="card-text">Бісквітний кремовий торт - справжній шедевр вишуканого смаку та ніжної текстури. Кожен шматочок тане, залишаючи по собі незабутнє враження та насолоду.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Замовити</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Відгук</button>
+                                    </div>
+                                    <small class="text-body-secondary">$8.12/300грн</small>
+                                </div>
+                            </div>
                         </div>
-
-                        <div class="mb-3">
-                            <label for="name" class="form-label">Ім'я</label>
-                            <input type="text" class="form-control" id="name">
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./images/products/image_2.jpeg" class="bd-placeholder-img card-img-top" role="img" width="100%" height="50%" />
+                            <div class="card-body">
+                                <p class="card-text">Брауні на пиві - неперевершене поєднання смаку та аромату. Насичений шоколадний смак брауні поєднується з легкою гірчинкою пива, створюючи унікальний смаковий букет.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Замовити</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Відгук</button>
+                                    </div>
+                                    <small class="text-body-secondary">$8.12/300грн</small>
+                                </div>
+                            </div>
                         </div>
-
-                        <div class="mb-3">
-                            <label for="tel" class="form-label">Телефон</label>
-                            <input type="tel" class="form-control" id="tel">
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./images/products/image_3.jpeg" class="bd-placeholder-img card-img-top" role="img" width="100%" height="50%" />
+                            <div class="card-body">
+                                <p class="card-text">Бісквітний торт на сметані - легке тісто повітряного бісквіту просочене молочною сметаною, смакує неперевершеною ніжністю та невагомістю.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Замовити</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Відгук</button>
+                                    </div>
+                                    <small class="text-body-secondary">$8.12/300грн</small>
+                                </div>
+                            </div>
                         </div>
+                    </div>
 
-                        <div class="mb-3">
-                            <label for="description" class="form-label">Побажання</label>
-                            <textarea class="form-control" id="description" rows="3"></textarea>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./images/products/image_4.jpeg" class="bd-placeholder-img card-img-top" role="img" width="100%" height="50%" />
+                            <div class="card-body">
+                                <p class="card-text">М'ятне печиво - володіє витонченим ароматом свіжої м'яти. Ніжні та ароматні печинки розкривають м'ятну свіжість. Ідеально смакують до чаю чи кави та дарують приємний післясмак.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Замовити</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Відгук</button>
+                                    </div>
+                                    <small class="text-body-secondary">$8.12/300грн</small>
+                                </div>
+                            </div>
                         </div>
-                    
-                        <button id="send">Відправити</button>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./images/products/image_5.jpeg" class="bd-placeholder-img card-img-top" role="img" width="100%" height="50%" />
+                            <div class="card-body">
+                                <p class="card-text">Лимонний бісквіт - ніжний та освіжаючий десерт, який вражає яскравим смаком. Легке тісто наповнене ароматом цитрусових, надає кожному шматочку особливий смак.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Замовити</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Відгук</button>
+                                    </div>
+                                    <small class="text-body-secondary">$8.12/300грн</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./images/products/image_6.jpeg" class="bd-placeholder-img card-img-top" role="img" width="100%" height="50%" />
+                            <div class="card-body">
+                                <p class="card-text">Бісквітний торт - ніжний і легкий десерт, який робить будь-яку годину святковою. Його основа - повітряне тісто, яке просочене ароматним сиропом або начинкою за смаком.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Замовити</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Відгук</button>
+                                    </div>
+                                    <small class="text-body-secondary">$8.12/300грн</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./images/products/image_7.jpeg" class="bd-placeholder-img card-img-top" role="img" width="100%" height="50%" />
+                            <div class="card-body">
+                                <p class="card-text">Печиво з родзинками та шоколадом - чудове поєднання ніжного тіста, солодких родзинок та ароматного шоколаду. Кожен шматочок наповнений незабутнім смаком та текстурою.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Замовити</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Відгук</button>
+                                    </div>
+                                    <small class="text-body-secondary">$8.12/300грн</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./images/products/image_8.jpeg" class="bd-placeholder-img card-img-top" role="img" width="100%" height="50%" />
+                            <div class="card-body">
+                                <p class="card-text">Бісквітний торт з мандаринами та горіхами - повітряний бісквіт гармонійно поєднується з ніжним кремом, свіжість мандаринів та горіхів додає неповторний смаковий акцент.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Замовити</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Відгук</button>
+                                    </div>
+                                    <small class="text-body-secondary">$8.12/300грн</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./images/products/image_9.jpeg" class="bd-placeholder-img card-img-top" role="img" width="100%" height="50%" />
+                            <div class="card-body">
+                                <p class="card-text">Вафельний торт зі згущенним молоком та горіхами - солодкий десерт, який розкриває неперевершений смак вафель, ніжного згущеного молока і хрусткості горіхів.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Замовити</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Відгук</button>
+                                    </div>
+                                    <small class="text-body-secondary">$8.12/300грн</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./images/products/image_10.jpeg" class="bd-placeholder-img card-img-top" role="img" width="100%" height="50%" />
+                            <div class="card-body">
+                                <p class="card-text">Галета - чудовий десерт, що поєднує в собі ніжність та неймовірний смак. Хрустке бездріжжове тісто, яке обхоплює начинку, нагадує тепло і смак домашнього десерту.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Замовити</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Відгук</button>
+                                    </div>
+                                    <small class="text-body-secondary">$8.12/300грн</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./images/products/image_11.jpeg" class="bd-placeholder-img card-img-top" role="img" width="100%" height="50%" />
+                            <div class="card-body">
+                                <p class="card-text">Брауні на пиві - неординарний варіант традиційного десерту що має ніжну текстуру та витончену гірчинку, яка прекрасно поєднується з солодким шоколадом.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Замовити</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Відгук</button>
+                                    </div>
+                                    <small class="text-body-secondary">$8.12/300грн</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card shadow-sm">
+                            <img src="./images/products/image_12.jpeg" class="bd-placeholder-img card-img-top" role="img" width="100%" height="50%" />
+                            <div class="card-body">
+                                <p class="card-text">Брауні з вишнями - ароматний десерт що має неповторний смак завдяки гармонійному поєднанню солодкого шоколаду та кисленького соку вишень.</p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Замовити</button>
+                                        <button type="button" class="btn btn-sm btn-outline-secondary">Відгук</button>
+                                    </div>
+                                    <small class="text-body-secondary">$8.12/300грн</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-
             </div>
         </div>
 
@@ -129,12 +277,12 @@
             </p>
 
             <p class="mb-0">
-                Є питання ?
+                Є питання ? 
 
                 <a href="https://t.me/lianeso">
                     Заходь та питай
                 </a>,
-                випічка на всі випадки життя
+                випічка на всі випадки життя 
                 <a href="https://www.instagram.com/stasia.baking/">
                     @stasia.baking
                 </a>.
