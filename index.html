@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stasia | Order</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+    <link href="../styles/bootstrap.min.css" rel="stylesheet">
+    <link href="../styles/style.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <header data-bs-theme="dark">
+        <div class="collapse text-bg-dark" id="navbarHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-md-7 py-4">
+                        <h4>Про нашу пекарню</h4>
+                        <p>Пекарня Stasia Baking - це особливе місце, де витає аромат свіжого хлібу і випічки, яка
+                            тішить душу і зігріває серце. Це не просто місце, де готують харчі, а справжнє джерело
+                            тепла,
+                            затишку і смаку. Тут замість інгредієнтів готуються щасливі миті, а замість печі - тепло
+                            любові і турботи.</p>
+                    </div>
+                    <div class="col-sm-4 offset-md-1 py-4">
+                        <h4>Контакти</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-white">Telegram</a></li>
+                            <li><a href="#" class="text-white">Viber</a></li>
+                            <li><a href="#" class="text-white">WhatsApp</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+            <div class="container">
+                <a href="../index.html" class="navbar-brand d-flex align-items-center">
+                    <div class="photo">
+                        <img class="personPhoto" alt="stasia baking logo" src="../images/logo/logo_100.jpg">
+                    </div>
+                    <strong class="mr-4">StasiaBaking</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
+                    aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="py-5 text-center container">
+            <div class="row py-lg-5">
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <h1 class="fw-light">Оформлення замовлення</h1>
+                </div>
+            </div>
+        </section>
+
+        <div class="album py-5 bg-body-tertiary">
+            <div class="container">
+
+                <h1>Заповніть форму</h1>
+
+
+                <div class="mb-3">
+                    <label for="product" class="form-label">
+                        Вибрати випічку
+                    </label>
+
+                        <div class="mb-3">
+                            <select class="form-select" id="product">
+                                <option value="">...</option>
+                                <option value="1">Бісквітний кремовий торт</option>
+                                <option value="2">Брауні на пиві</option>
+                                <option value="3">Бісквітний торт на сметані</option>
+                                <option value="4">М'ятне печиво</option>
+                                <option value="5">Лимонний бісквіт</option>
+                                <option value="6">Бісквітний торт</option>
+                                <option value="7">Печиво з родзинками та шоколадом</option>
+                                <option value="8">Бісквітний торт з мандаринами та горіхами</option>
+                                <option value="9">Вафельний торт зі згущенним молоком та горіхами</option>
+                                <option value="10">Галета</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Ім'я</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="tel" class="form-label">Телефон</label>
+                            <input type="tel" class="form-control" id="tel">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="description" class="form-label">Побажання</label>
+                            <textarea class="form-control" id="description" rows="3"></textarea>
+                        </div>
+                    
+                        <button id="send">Відправити</button>
+
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="text-body-secondary py-5">
+
+        <div class="container">
+
+            <p class="float-end mb-1">
+
+                <a href="#">
+                    Back to top
+                </a>
+
+            </p>
+
+            <p class="mb-1">
+                Пече <a href="https://www.instagram.com/ssttasiiaa/">@ssttasiiaa</a>
+            </p>
+
+            <p class="mb-0">
+                Є питання ?
+
+                <a href="https://t.me/lianeso">
+                    Заходь та питай
+                </a>,
+                випічка на всі випадки життя
+                <a href="https://www.instagram.com/stasia.baking/">
+                    @stasia.baking
+                </a>.
+            </p>
+
+        </div>
+    </footer>
+    <script src="../scripts/bootstrap.bundle.min.js"></script>
+    <script src="../scripts/script.js"></script>
+
+</body>
+
+</html>
